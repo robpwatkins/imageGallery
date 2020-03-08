@@ -14,7 +14,7 @@ html, body {
 
 .container {
   position: relative;
-  height: 25%;
+  height: 15%;
 }
 
 img {
@@ -25,7 +25,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 5vh;
+  font-size: 3vh;
   color: white;
   /* height: auto; */
   width: auto;
