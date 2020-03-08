@@ -36,14 +36,15 @@ img {
   right: 0;
   opacity: 0;
   transition: .5s ease;
-  background: hotpink;
+  background: black;
 }
 
 .container:hover .overlay {
-  opacity: 1;
+  opacity: .5;
 }
 
 .overlayText {
   max-width: 100%;
   text-align: center;
+  cursor: default;
 }
