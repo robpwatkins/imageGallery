@@ -1,0 +1,29 @@
+.gridContainer {
+  display: grid;
+  height: 400px;
+  width: 400px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 2fr 2fr 1fr 1fr;
+  grid-template-areas: 
+    "header header"
+    "main   main"
+    "main   main"
+    "footer footer"
+}
+
+.gridCell {
+  height: 100%;
+  border: 1px solid black;
+}
+
+header {
+  background: lightblue;
+}
+
+main {
+  background: black;
+}
+
+footer {
+  background: yellow;
+}
