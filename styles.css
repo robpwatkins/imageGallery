@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: lightgray;
+}
+
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  height: 25%;
+}
+
+img {
+  height: 100%;
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vh;
+  color: white;
+  /* height: auto; */
+  width: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background: hotpink;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.overlayText {
+  max-width: 100%;
+  text-align: center;
+}
