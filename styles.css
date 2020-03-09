@@ -1,16 +1,26 @@
 html, body {
   height: 100%;
   width: 100%;
-  background: lightgray;
+  background: lightskyblue;
 }
 
 .mainContainer {
+  display: flex;
+  height: 100%;
   width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin: 75px 0 75px 0;
+}
+
+.galleryContainer {
+  background: ivory;
+  padding-bottom: 10px;
 }
 
 .flexContainer {
   display: flex;
-  margin: 10px auto;
+  margin: 10px;
 }
 
 .flexContainer1 {
@@ -18,11 +28,11 @@ html, body {
 }
 
 .flexContainer2 {
-  height: 148px;
+  height: 178.5px;
 }
 
 .flexContainer3 {
-  height: 152px;
+  height: 157px;
 }
 
 .container {
@@ -35,18 +45,6 @@ img {
   height: 100%;
 }
 
-.pups {
-  width: 73%;
-  object-fit: cover;
-  object-position: 100% 70%;
-
-}
-
-.whitePup {
-  width: 47%;
-  object-fit: cover;
-}
-
 .overlay {
   display: flex;
   justify-content: center;
@@ -54,6 +52,7 @@ img {
   font-size: 3vh;
   color: white;
   width: auto;
+  padding: 5px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -66,14 +65,6 @@ img {
 
 .container:hover .overlay {
   opacity: .5;
-}
-
-.pupper {
-  width: 73%;
-}
-
-.pupOverlay {
-  width: 47%;
 }
 
 .overlayText {
