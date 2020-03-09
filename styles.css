@@ -16,6 +16,7 @@ html, body {
 .galleryContainer {
   background: ivory;
   padding-bottom: 10px;
+  font-family: 'Nothing You Could Do', cursive;
 }
 
 .flexContainer {
@@ -49,7 +50,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3vh;
+  font-size: 25px;
   color: white;
   width: auto;
   padding: 5px;
