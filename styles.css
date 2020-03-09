@@ -4,17 +4,26 @@ html, body {
   background: lightgray;
 }
 
-.mainContainer {
+/* .mainContainer {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
   height: 100%;
   width: 100%;
+} */
+
+.mainContainer {
+  display: grid;
+  height: 500px;
+  width: 1050px;
+  grid-template-columns: 50px 50px 50px;
+  border: 1px solid black;
+
 }
 
 .container {
   position: relative;
-  height: 15%;
+  height: 100%;
 }
 
 img {
