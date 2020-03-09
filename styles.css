@@ -4,9 +4,13 @@ html, body {
   background: lightgray;
 }
 
+.mainContainer {
+  width: 100%;
+}
+
 .flexContainer {
   display: flex;
-  margin: 10px;
+  margin: 10px auto;
 }
 
 .flexContainer1 {
