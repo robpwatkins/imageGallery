@@ -8,6 +8,7 @@ html, body {
 .mainContainer {
   /* width: 90%; */
   margin: 5px auto;
+  font-family: 'Nothing You Could Do', cursive;
 }
 
 .row {
